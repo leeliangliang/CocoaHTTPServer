@@ -47,11 +47,9 @@
 **/
 
 // Enable 1.9.x legacy macros if imported directly
-#ifndef DD_LEGACY_MACROS
-    #define DD_LEGACY_MACROS 1
-#endif
+#define DD_LEGACY_MACROS 1
 // DD_LEGACY_MACROS is checked in the file itself
-#import "DDLegacyMacros.h"
+#import <CocoaLumberjack/DDLegacyMacros.h>
 
 
 // Define logging context for every log message coming from the HTTP server.
