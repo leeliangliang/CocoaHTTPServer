@@ -1,0 +1,6 @@
+framework module Pods_CocoaHTTPServer_Tests {
+  umbrella header "Pods-CocoaHTTPServer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
